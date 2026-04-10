@@ -1,0 +1,16 @@
+/* style.css */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Memastikan tampilan cetak laporan rapi */
+@media print {
+    .no-print {
+        display: none;
+    }
+}
